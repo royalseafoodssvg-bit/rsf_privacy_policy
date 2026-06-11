@@ -1,247 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy | Royal Seafood</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy | Royal Seafood</title>
 
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-        }
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-        body{
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height:1.7;
-            color:#333;
-            background-color:#f8f9fa;
-            padding:20px;
-        }
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:#f4f7fb;
+    color:#333;
+    line-height:1.7;
+    padding:20px;
+}
 
-        .container{
-            max-width:900px;
-            margin:30px auto;
-            background:white;
-            padding:40px;
-            border-radius:12px;
-            box-shadow:0 4px 20px rgba(0,0,0,0.1);
-        }
+.container{
+    max-width:950px;
+    margin:30px auto;
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
 
-        header{
-            text-align:center;
-            margin-bottom:40px;
-            border-bottom:4px solid #e74c3c;
-            padding-bottom:25px;
-        }
+/* HEADER */
 
-        .logo{
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            margin-bottom:15px;
-        }
+header{
+    background:linear-gradient(135deg,#002b5c,#004f9e);
+    padding:30px 40px;
+    color:#fff;
+}
 
-        .logo img{
-            width:180px;
-            height:auto;
-            object-fit:contain;
-        }
+.header-content{
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
 
-        .company-name{
-            font-size:2rem;
-            font-weight:bold;
-            color:#e74c3c;
-            margin-bottom:10px;
-        }
+.logo{
+    width:100px;
+    height:100px;
+    object-fit:cover;
+    background:#fff;
+    border-radius:50%;
+    padding:6px;
+    box-shadow:0 5px 20px rgba(0,0,0,.2);
+}
 
-        h1{
-            font-size:1.9rem;
-            margin:10px 0;
-            color:#222;
-        }
+.company-info h1{
+    font-size:2.3rem;
+    margin-bottom:5px;
+}
 
-        .effective-date{
-            color:#555;
-            font-size:1.05rem;
-        }
+.company-info h2{
+    color:#ffd700;
+    font-size:1.2rem;
+    font-weight:600;
+    border:none;
+    padding:0;
+    margin:0 0 5px 0;
+}
 
-        h2{
-            color:#e74c3c;
-            margin:35px 0 15px;
-            font-size:1.45rem;
-            border-left:6px solid #e74c3c;
-            padding-left:18px;
-        }
+.company-info p{
+    color:#d9e7ff;
+    font-size:0.95rem;
+}
 
-        p,
-        li{
-            font-size:1.05rem;
-            color:#444;
-        }
+/* CONTENT */
 
-        ul{
-            margin:15px 0 20px 25px;
-        }
+.content{
+    padding:40px;
+}
 
-        .contact-box{
-            background:#f8f1f1;
-            padding:22px;
-            border-radius:10px;
-            border-left:5px solid #e74c3c;
-            margin:30px 0;
-        }
+.intro{
+    font-size:1.05rem;
+    margin-bottom:30px;
+}
 
-        footer{
-            text-align:center;
-            margin-top:60px;
-            color:#777;
-            font-size:0.95rem;
-        }
+.section{
+    margin-bottom:35px;
+}
 
-        @media (max-width:768px){
-            .container{
-                padding:25px;
-            }
+.section h3{
+    color:#004f9e;
+    font-size:1.4rem;
+    margin-bottom:15px;
+    border-left:5px solid #004f9e;
+    padding-left:15px;
+}
 
-            .logo img{
-                width:140px;
-            }
+.section p,
+.section li{
+    color:#555;
+    font-size:1rem;
+}
 
-            .company-name{
-                font-size:1.6rem;
-            }
+.section ul{
+    margin-left:25px;
+    margin-top:10px;
+}
 
-            h1{
-                font-size:1.6rem;
-            }
+.contact-box{
+    background:#f8fbff;
+    border-left:5px solid #004f9e;
+    padding:20px;
+    border-radius:10px;
+    margin-top:15px;
+}
 
-            h2{
-                font-size:1.25rem;
-            }
-        }
-    </style>
+.contact-box p{
+    margin-bottom:10px;
+}
+
+footer{
+    background:#002b5c;
+    color:#fff;
+    text-align:center;
+    padding:18px;
+    font-size:0.95rem;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    .header-content{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .company-info h1{
+        font-size:1.8rem;
+    }
+
+    .content{
+        padding:25px;
+    }
+
+    .logo{
+        width:85px;
+        height:85px;
+    }
+}
+</style>
 </head>
 
 <body>
 
-    <div class="container">
+<div class="container">
 
-        <header>
-            <!-- Logo Image -->
-            <div class="logo">
-                <img src="pic.jpeg" alt="Royal Seafood Logo">
+    <header>
+        <div class="header-content">
+
+            <!-- Replace pic.jpeg with your logo path -->
+            <img src="pic.jpeg" alt="Royal Seafood Logo" class="logo">
+
+            <div class="company-info">
+                <h1>Royal Seafood</h1>
+                <h2>Privacy Policy</h2>
+                <p><strong>Effective Date:</strong> May 14, 2026</p>
             </div>
 
-            <!-- Company Name -->
-            <div class="company-name">Royal Seafood</div>
+        </div>
+    </header>
 
-            <h1>Privacy Policy</h1>
+    <div class="content">
 
-            <p class="effective-date">
-                <strong>Effective Date:</strong> May 14, 2026
-            </p>
-        </header>
-
-        <p>
-            Welcome to <strong>Royal Seafood</strong>. Your privacy is very
-            important to us. This Privacy Policy explains how we collect,
-            use, and safeguard your personal information when you use our
-            mobile application ("App").
+        <p class="intro">
+            Welcome to <strong>Royal Seafood</strong>. Your privacy is important to us.
+            This Privacy Policy explains how we collect, use, and protect your personal
+            information when you use our mobile application ("App").
         </p>
 
-        <h2>1. Information We Collect</h2>
+        <div class="section">
+            <h3>1. Information We Collect</h3>
 
-        <ul>
-            <li>
-                <strong>Personal Information:</strong>
-                Name, phone number, email address, and delivery address
-                when you register or place an order.
-            </li>
+            <ul>
+                <li>
+                    <strong>Personal Information:</strong>
+                    Name, phone number, email address, and delivery address.
+                </li>
 
-            <li>
-                <strong>Location Data:</strong>
-                Your device's location (with your permission) to provide
-                accurate delivery.
-            </li>
+                <li>
+                    <strong>Location Data:</strong>
+                    Device location (with your permission) for delivery services.
+                </li>
 
-            <li>
-                <strong>Usage Data:</strong>
-                How you interact with the App to help us improve our service.
-            </li>
-        </ul>
+                <li>
+                    <strong>Usage Data:</strong>
+                    Information about how you interact with the App.
+                </li>
+            </ul>
+        </div>
 
-        <h2>2. How We Use Your Information</h2>
+        <div class="section">
+            <h3>2. How We Use Your Information</h3>
 
-        <ul>
-            <li>To process and deliver your orders</li>
-            <li>To send order updates and customer support messages</li>
-            <li>To improve our App and user experience</li>
-            <li>To maintain the security of our services</li>
-        </ul>
+            <ul>
+                <li>To process and deliver orders.</li>
+                <li>To provide customer support.</li>
+                <li>To send order updates.</li>
+                <li>To improve our services and application.</li>
+                <li>To maintain security and prevent misuse.</li>
+            </ul>
+        </div>
 
-        <h2>3. Information Sharing</h2>
-
-        <p>
-            We do <strong>not sell</strong> your personal information.
-            We share it only in these cases:
-        </p>
-
-        <ul>
-            <li>
-                <strong>Delivery Partners:</strong>
-                To fulfill and deliver your orders.
-            </li>
-
-            <li>
-                <strong>Legal Requirements:</strong>
-                If required by law or to protect our rights.
-            </li>
-        </ul>
-
-        <h2>4. Data Security</h2>
-
-        <p>
-            We use reasonable security measures to protect your data.
-            However, no electronic storage or transmission is 100% secure.
-        </p>
-
-        <h2>5. Children's Privacy</h2>
-
-        <p>
-            Our App is not intended for children under 13.
-            We do not knowingly collect data from children under 13.
-        </p>
-
-        <h2>6. Changes to This Policy</h2>
-
-        <p>
-            We may update this Privacy Policy occasionally.
-            We will notify you by updating this page and the Effective Date.
-        </p>
-
-        <h2>7. Contact Us</h2>
-
-        <div class="contact-box">
-            <p>If you have any questions, please contact us:</p>
+        <div class="section">
+            <h3>3. Information Sharing</h3>
 
             <p>
-                <strong>Email:</strong>
-                royalseafoodssvg@gmail.com
+                We do <strong>not sell</strong> your personal information.
+                Information is shared only when necessary:
             </p>
 
+            <ul>
+                <li>
+                    <strong>Delivery Partners:</strong>
+                    To fulfill and deliver your orders.
+                </li>
+
+                <li>
+                    <strong>Legal Requirements:</strong>
+                    When required by law or government authorities.
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>4. Data Security</h3>
+
             <p>
-                <strong>Business Name:</strong>
-                Royal Seafood
+                We implement reasonable security measures to protect your data.
+                However, no internet transmission or storage system can be
+                guaranteed to be completely secure.
             </p>
         </div>
 
-        <footer>
-            <p>&copy; 2026 Royal Seafood. All Rights Reserved.</p>
-        </footer>
+        <div class="section">
+            <h3>5. Children's Privacy</h3>
+
+            <p>
+                Our services are not intended for children under 13 years of age.
+                We do not knowingly collect information from children under 13.
+            </p>
+        </div>
+
+        <div class="section">
+            <h3>6. Changes to This Policy</h3>
+
+            <p>
+                We may update this Privacy Policy from time to time.
+                Any changes will be reflected on this page along with an updated
+                effective date.
+            </p>
+        </div>
+
+        <div class="section">
+            <h3>7. Contact Us</h3>
+
+            <div class="contact-box">
+
+                <p>
+                    <strong>Email:</strong>
+                    royalseafoodssvg@gmail.com
+                </p>
+
+                <p>
+                    <strong>Business Name:</strong>
+                    Royal Seafood
+                </p>
+
+            </div>
+        </div>
 
     </div>
+
+    <footer>
+        © 2026 Royal Seafood. All Rights Reserved.
+    </footer>
+
+</div>
 
 </body>
 </html>
